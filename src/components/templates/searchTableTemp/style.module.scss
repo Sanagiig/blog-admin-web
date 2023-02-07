@@ -1,0 +1,14 @@
+@import "@/assets/styles/utils.scss";
+.table_title_bar{
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  .title_block{
+    font-size: 16px;
+    line-height: 20px;
+  }
+  .operation_block{
+    @extend .flex_right
+  }
+
+}

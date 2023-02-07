@@ -1,0 +1,5 @@
+@import url(./utils.scss);
+img{
+  // 禁止拖动
+  -webkit-user-drag: none;
+}

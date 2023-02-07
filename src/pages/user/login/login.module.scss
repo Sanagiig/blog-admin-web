@@ -1,0 +1,24 @@
+.login_container{
+  width: 100%;
+  height:100%;
+  background-color: aqua;
+  overflow: hidden;
+
+  .login_title{
+    font-size: 20px;
+    line-height:80px;
+    font-weight: bold;
+  }
+
+  .login_card_container{
+    display: flex;
+    justify-content: center;
+    margin-top:20%;
+    width: 100%;
+
+    .login_card{
+      text-align: center;
+      width: 540px;
+    }
+  }
+}
